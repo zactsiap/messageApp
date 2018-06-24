@@ -20,7 +20,7 @@ public class DataBaseJDBC {
 
 	private static final String MYSQLURL = "jdbc:mysql://localhost/bootcampdb?autoReconnect=true&useSSL=false";
 	private static final String USERNAME = "root";
-	private static final String PASS = "agent900";
+	private static final String PASS = "root";
 
 	private Connection con = null;
 	private ResultSet rs = null;
